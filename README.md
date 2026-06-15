@@ -11,28 +11,21 @@
 
 ## Funcionalidades
 
-### Nivel 1 — Essencial
 - Cadastro de receitas e despesas
 - Edicao e exclusao de lancamentos
 - 11 categorias padrao (Alimentacao, Transporte, Moradia, Lazer, Educacao, Saude e mais)
 - Dashboard com saldo atual, receitas, despesas e economia do mes
 - Historico com filtros por periodo, categoria e conta
 - Persistencia com SQLite (sem JSON em producao)
-
-### Nivel 2 — Diferencial
 - Graficos interativos: pizza por categoria, barras receitas vs despesas, area de evolucao
 - Metas financeiras com barra de progresso e depositos
 - Multiplas contas (Carteira, Conta Corrente, Poupanca, Investimento)
 - Transferencia entre contas com controle de saldo
-
-### Nivel 3 — Portfolio Forte
 - Login com cadastro, autenticacao e logout
 - Senhas protegidas com hash bcrypt
 - Relatorios em PDF formatados com ReportLab
 - Exportacao CSV e Excel
 - Multi-usuario com dados isolados por conta
-
-### Nivel 4 — Diferencial de Destaque
 - **IA Financeira (FinBot)**: faca perguntas em linguagem natural e receba analises personalizadas
 - **Insights automaticos**: o sistema analisa seus dados e gera recomendacoes
 - Exemplos de perguntas:
